@@ -8,30 +8,28 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
     <script src="dist/js/popularQuote.js"></script>
 </head>
-<body class="bg-white transition-colors duration-300 ease-in">
-    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-center mt-10">Random Movie Quote</h1>
+<body class="bg-orange-500 transition-colors duration-300 ease-in">
+    <h1 class="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-center mt-10 sm:text-4xl">Random Movie Quote</h1>
     <figure class="max-w-screen-md mx-auto text-center">
-        <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+        <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600 max-sm:w-5 max-sm:h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
         </svg>
         <blockquote>
-            <p class="text-2xl italic font-medium text-gray-900 dark:text-white" id="quote">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+            <p class="text-sm italic font-medium text-gray-900 dark:text-white sm:text-2xl" id="quote">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
         </blockquote>        
         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-            <h3 class="text-3xl font-bold dark:text-white my-6">Movie:</h3>
-            <p class="text-2xl italic font-medium text-gray-900 dark:text-white" id="movie">Sample Movie</p>
+            <h3 class="text-2xl font-bold dark:text-white my-4 sm:text-3xl sm:my-6">Movie:</h3>
+            <p class="text-xl italic font-medium text-gray-900 dark:text-white sm:text-2xl" id="movie">Sample Movie</p>
         </figcaption>
         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-            <h3 class="text-3xl font-bold dark:text-white my-6">Year:</h3>
-            <p class="text-2xl italic font-medium text-gray-900 dark:text-white" id="year">1860</p>
+            <h3 class="text-2xl font-bold dark:text-white my-4 sm:text-3xl sm:my-6">Year:</h3>
+            <p class="text-xl italic font-medium text-gray-900 dark:text-white sm:text-2xl" id="year">1860</p>
         </figcaption>
         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-            <h3 class="text-3xl font-bold dark:text-white my-6">Movie:</h3>
-            <p class="text-2xl italic font-medium text-gray-900 dark:text-white" id="movie">Sample Movie</p>
+            <h3 class="text-2xl font-bold dark:text-white my-4 sm:text-3xl sm:my-6">Type:</h3>
+            <p class="text-xl italic font-medium text-gray-900 dark:text-white sm:text-2xl" id="type">Sample Type</p>
         </figcaption>
         <figcaption class="flex items-center justify-center mt-6 space-x-3">
-            <h3 class="text-3xl font-bold dark:text-white">Search Type</h3>
-            <input class="text-2xl italic font-medium text-gray-900 dark:text-white" id="search-type" type="text" />
             <button onclick="changeQuote()" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Change</button>
         </figcaption>
     </figure>
