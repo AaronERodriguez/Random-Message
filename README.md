@@ -11,7 +11,7 @@ To install all you need to do is <u>fork</u> the repository, clone that forked r
 npm i
 ```
 in order to install the dependencies. Once that's done, you will have a copy of the project.
-## Picutre:
+## How to use
 ![Project image](./assets/project-picture.png)
 The project will start with placeholder information for each area. Everytime the user presses the change button, the following will change:
 - The quote
