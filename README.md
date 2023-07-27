@@ -1,12 +1,12 @@
 # Random-Message [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://aaronerodriguez.github.io/Random-Message/)
-This project will generate a Random Movie Quote with just a press of a button.
+This project will generate a <u>*random movie quote*</u> with just a press of a button.
 
-The following npm module was used to generate the quote information:
+The following <u>**npm module**</u> was used to generate the quote information:
 >[popular-movie-quotes](https://www.npmjs.com/package/popular-movie-quotes?activeTab=readme)
 
 ## Installation
 
-To install all you need to do is fork the repository, clone that forked repository and once you have cloned it. In the terminal, run:
+To install all you need to do is <u>fork</u> the repository, clone that forked repository and once you have cloned it. In the terminal, run:
 ```console 
 npm i
 ```
@@ -20,4 +20,4 @@ The project will start with placeholder information for each area. Everytime the
 - The corresponding type of media
 - The background color
 
-It Will display the corresponding information.
+It'll display the corresponding information.
